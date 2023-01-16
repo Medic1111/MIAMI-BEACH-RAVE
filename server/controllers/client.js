@@ -14,7 +14,7 @@ const getClient = handle_async(async (req, res, next) => {
       email: client.email,
       subject: "Miami Beach Rave",
       message: `Enjoy Miami Beach Rave! 
-    You can check your QRCode here http://localhost:3000/success/${client.id}`,
+    You can check your QRCode here https://miamibeachrave.onrender.com/success/${client.id}`,
     });
 
     client.has_had_email = true;
