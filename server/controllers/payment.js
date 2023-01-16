@@ -12,8 +12,8 @@ const paymentControl = handle_async(async (req, res, next) => {
   const session = await stripe.checkout.sessions.create({
     line_items: [{ price: `price_1MQZruA39eV6CqSsO7INdgm9`, quantity: 1 }],
     mode: "payment",
-    success_url: `http://localhost:3000/success/${client.id}`,
-    cancel_url: "http://localhost:3000/",
+    success_url: `https://miamibeachrave.onrender/success/${client.id}`,
+    cancel_url: "https://miamibeachrave.onrender/",
   });
 
   client.intent = session.payment_intent;
