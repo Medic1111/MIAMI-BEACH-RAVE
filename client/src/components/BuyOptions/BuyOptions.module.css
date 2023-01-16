@@ -1,0 +1,26 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.pTitle {
+  font-size: 6em;
+  text-align: center;
+  color: #f7f7f7;
+  font-weight: 600;
+  text-shadow: 0 0 15px #f7f7f7;
+}
+
+.disclaimer {
+  font-size: 1.7em;
+  max-width: 70%;
+  text-align: center;
+  margin-top: 5vh;
+  color: #f7f7f7;
+  font-weight: 400;
+}

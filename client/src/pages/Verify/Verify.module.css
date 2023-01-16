@@ -1,0 +1,43 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  padding: 2.5vh 2.5vw;
+  flex-wrap: wrap;
+}
+.h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  max-width: 85vw;
+  text-align: center;
+}
+.ticketType,
+.ticketType2 {
+  font-size: 20em;
+  text-shadow: 0 0 15px #f7f7f7;
+  font-weight: 500;
+  max-width: 95vw;
+  overflow-wrap: normal;
+}
+
+.ticketType2 {
+  font-size: 10em;
+}
+
+.payStatus {
+  font-size: 6em;
+  font-weight: 300;
+  text-shadow: 0 0 15px #f7f7f7;
+  margin-bottom: 5vh;
+}
+
+.allowance {
+  font-size: 2em;
+  font-weight: 400;
+  text-transform: uppercase;
+}

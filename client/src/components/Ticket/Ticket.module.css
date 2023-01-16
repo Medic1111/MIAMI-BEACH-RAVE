@@ -1,0 +1,33 @@
+.ticket {
+  height: 25%;
+  width: 100%;
+  padding: 1em;
+  background: linear-gradient(90deg, #8a73ffcc, #ffffff);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.ticket:hover {
+  background: linear-gradient(120deg, #8a73ffcc, #ffffff);
+}
+.txtBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2vh;
+}
+.h2 {
+  font-size: 3em;
+  text-shadow: 0 0 35px #f7f7f7;
+}
+
+.price {
+  color: #8b73ff;
+  font-size: 6em;
+}
+.p {
+  font-size: 1.7em;
+  max-width: 80%;
+}
