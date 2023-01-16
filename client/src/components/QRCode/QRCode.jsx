@@ -14,7 +14,6 @@ const QRCode = ({ url }) => {
       size={175}
       bgColor={"#f7f7f7"}
       level={"H"}
-      // value={`https://food-qr.herokuapp.com/restaurants/${url}`}
       value={`https://miamibeachrave.onrender.com/verify/${url}`}
     />
   );
