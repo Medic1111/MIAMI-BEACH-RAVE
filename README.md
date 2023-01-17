@@ -20,7 +20,6 @@ Full stack app, with security taken into account:
 - Rate limit against Brute force attacks
 - Data sanitization against NOSQL Query Injection
 - Preventing params/query polution
-- Encryption and Cookies httpOnly
 - Protection against XSS
 
 Email integration with sendgrid and nodemailer
