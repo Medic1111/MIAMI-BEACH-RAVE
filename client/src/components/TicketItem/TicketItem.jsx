@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { uiCtx } from "../../features/ui-ctx";
-import classes from "./Ticket.module.css";
+import classes from "./TicketItem.module.css";
 
-const Ticket = ({ obj, setTicketType }) => {
+const TicketItem = ({ obj, setTicketType }) => {
   const uiMgr = useContext(uiCtx);
   return (
     <div
@@ -24,4 +24,4 @@ const Ticket = ({ obj, setTicketType }) => {
   );
 };
 
-export default Ticket;
+export default TicketItem;

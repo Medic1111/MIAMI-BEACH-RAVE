@@ -1,0 +1,8 @@
+.x {
+  position: absolute;
+  font-size: 3em;
+  color: #8b73ff;
+  top: 0.5em;
+  right: 1.5em;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background: linear-gradient(90deg, #8a73ffcc, #ffffff); */
+  gap: 2vh;
+  position: relative;
+}
+
+.input {
+  background-color: #f7f7f756;
+  border: none;
+  width: 80%;
+  height: 5vh;
+  border-bottom: solid 2px #8a73ffcc;
+  padding-left: 0.25em;
+  font-size: 1.8em;
+  color: #1c1833cc;
+  outline: none;
+  color: #f7f7f7;
+}
+.input::placeholder {
+  color: #f7f7f7;
+}

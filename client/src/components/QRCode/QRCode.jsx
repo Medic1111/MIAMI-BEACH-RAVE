@@ -1,9 +1,12 @@
 import classes from "./QRCode.module.css";
 import { QRCodeCanvas } from "qrcode.react";
 import { useNavigate } from "react-router-dom";
-
+import useVerify from "../../hooks/useVerify";
 const QRCode = ({ url }) => {
   const nav = useNavigate();
+
+  useVerify(url);
+
   const printHandler = () => {
     window.print();
   };
