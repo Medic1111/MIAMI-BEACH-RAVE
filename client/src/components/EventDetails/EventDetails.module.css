@@ -1,0 +1,25 @@
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.pBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dash {
+  font-size: 6em;
+  color: #e1a3ff;
+}
+.span1 {
+  font-size: 6em;
+  text-align: center;
+}
+.span2 {
+  font-size: 3em;
+  text-align: center;
+}

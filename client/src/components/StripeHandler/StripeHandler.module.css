@@ -1,0 +1,15 @@
+.cta {
+  width: 80%;
+  height: 7.5vh;
+  background: linear-gradient(90deg, #8b73ff, #e1a3ff);
+  border: transparent;
+  color: #f7f7f7;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 2vh;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background: linear-gradient(180deg, #8b73ff, #e1a3ff);
+}

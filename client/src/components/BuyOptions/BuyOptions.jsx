@@ -1,25 +1,15 @@
-import classes from "./BuyOptions.module.css";
-import Ticket from "../Ticket/Ticket";
-import { tickets } from "../../assets/TicketData/TicketData";
+import TicketList from "../TicketList/TicketList";
+import Disclaimer from "../Disclaimer/Disclaimer";
+import BuyOptWrapper from "../BuyOptWrapper/BuyOptWrapper";
+import BuyOptHeader from "../BuyOptHeader/BuyOptHeader";
 
 const BuyOptions = ({ setTicketType }) => {
   return (
-    <section className={classes.section}>
-      <p className={classes.pTitle}>CHOOSE THE FUN</p>
-      {tickets.map((obj, index) => {
-        return (
-          <Ticket
-            setTicketType={setTicketType}
-            key={`TICKET_${index}`}
-            obj={obj}
-          />
-        );
-      })}
-      <h3 className={classes.disclaimer}>
-        Must show Email or QR Code at the door with an ID. Prices at the door
-        will be different. This is an online offer. Each pass admits ONE.
-      </h3>
-    </section>
+    <BuyOptWrapper>
+      <BuyOptHeader />
+      <TicketList setTicketType={setTicketType} />
+      <Disclaimer />
+    </BuyOptWrapper>
   );
 };
 
