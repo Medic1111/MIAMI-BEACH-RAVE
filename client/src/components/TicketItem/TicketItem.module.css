@@ -31,3 +31,8 @@
   font-size: 1.7em;
   max-width: 80%;
 }
+@media (min-width: 640px) {
+  .ticket {
+    width: 80%;
+  }
+}
