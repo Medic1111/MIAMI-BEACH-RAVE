@@ -13,3 +13,8 @@
 .cta:hover {
   background: linear-gradient(180deg, #8b73ff, #e1a3ff);
 }
+@media (min-width: 640px) {
+  .cta {
+    max-width: 60%;
+  }
+}

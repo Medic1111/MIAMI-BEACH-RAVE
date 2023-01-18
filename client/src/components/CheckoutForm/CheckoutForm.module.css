@@ -25,3 +25,8 @@
 .input::placeholder {
   color: #f7f7f7;
 }
+@media (min-width: 640px) {
+  .input {
+    max-width: 60%;
+  }
+}

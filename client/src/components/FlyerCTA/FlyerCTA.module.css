@@ -1,5 +1,6 @@
 .cta {
-  width: 60vw;
+  /* width: 60vw; */
+  width: 90vw;
   height: 7.5vh;
   background: linear-gradient(90deg, #8b73ff, #ffffff);
   border: transparent;
@@ -12,4 +13,10 @@
 .cta:hover {
   background: linear-gradient(90deg, #ffffff, #8b73ff);
   transition: 1s;
+}
+
+@media (min-width: 640px) {
+  .cta {
+    width: 50vw;
+  }
 }
